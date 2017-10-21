@@ -1,0 +1,40 @@
+blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+  background-color: #fff;
+  font-family: '微软雅黑','宋体';
+}
+ul,li{
+	list-style: none;
+}
+
+a:link,	
+a:visited,
+a:hover,	
+a:active{
+	text-decoration: none;
+}	
+
+div{
+	box-sizing: border-box;
+}
+
+input{
+	outline: none;
+}
+
+
+
+.clearfix::after {
+	content: '';
+	display: block;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
